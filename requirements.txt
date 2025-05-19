@@ -1,0 +1,13 @@
+streamlit
+langchain
+langchain-openai
+langchain-neo4j
+langchain-experimental
+langchain_weaviate
+neo4j # required by langchain and used directly
+weaviate-client # Used directly for Weaviate v4 client
+beautifulsoup4 # Used for HTML cleaning
+python-dotenv
+openai
+langchain-text-splitters
+langchain-core

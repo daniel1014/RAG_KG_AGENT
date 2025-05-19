@@ -1,0 +1,16 @@
+# Ignore environment variables file containing sensitive credentials
+.env
+
+# Ignore Python bytecode files
+*.pyc
+
+# Ignore build artifacts
+__pycache__/
+
+# Ignore virtual environment directories
+venv/
+.venv/
+
+# Ignore editor/IDE specific files (optional but common)
+.vscode/
+.idea/

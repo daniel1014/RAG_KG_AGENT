@@ -1,16 +1,33 @@
-# Ignore environment variables file containing sensitive credentials
-.env
+# macOS-specific files
+.DS_Store
+*/.DS_Store
 
-# Ignore Python bytecode files
-*.pyc
-
-# Ignore build artifacts
+# Python-specific
 __pycache__/
-
-# Ignore virtual environment directories
+*.py[cod]
+*.pyc
+*.egg-info/
+.pytest_cache/
 venv/
-.venv/
+env/
+*.venv/
 
-# Ignore editor/IDE specific files (optional but common)
-.vscode/
-.idea/
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+*.swp
+
+# Environment and secrets
+.env
+*.secret
+*.key
+
+# Optional: Ignore large data files or screenshots (uncomment if desired)
+# screenshot/
+# *.png
+# *.json

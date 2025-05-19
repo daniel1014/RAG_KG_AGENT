@@ -1,6 +1,7 @@
 # Personalized News Briefing Generator
+This project is a coding challenge for Serendipity AI company, aiming to create a personalised briefing AI agent.
 
-This project is a Streamlit web application that generates personalized news briefings for users based on their role and interests. It leverages a combination of Retrieval Augmented Generation (RAG) with a Weaviate vector database and Knowledge Graph (KG) querying with a Neo4j graph database to gather relevant information. An OpenAI Large Language Model (LLM) is then used to synthesize this information into a coherent and tailored briefing.
+This is a Streamlit web application that generates personalized news briefings for users based on their role and interests. It leverages a combination of Retrieval Augmented Generation (RAG) with a Weaviate vector database and Knowledge Graph (KG) querying with a Neo4j graph database to gather relevant information. An OpenAI Large Language Model (LLM) is then used to synthesize this information into a coherent and tailored briefing.
 
 ## Architecture
 
